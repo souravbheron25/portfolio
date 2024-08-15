@@ -1,0 +1,306 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Navbar Styles */
+.navbar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  left: 80%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.navbar-link img {
+  width: 50px;
+  height: auto;
+  transition: transform 0.3s slide-in-out;
+}
+
+.navbar-link img:hover {
+  transform: scale(1.1);
+}
+
+.portfolio-heading {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 45%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 100%;
+  color: white;
+}
+
+.portfolio-heading h1 {
+  font-size: 42px; /* Adjust size as needed */
+  background: linear-gradient(to left, red 49%, white 50%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+  display: inline-block; /* Make sure the gradient applies correctly */
+}
+
+.hero {
+  position: relative;
+  height: 100%;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 400%;
+  max-height: 400%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+.hero-content {
+  text-align: left;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.hero-content h2 {
+  font-size: 40px; /* Adjust size as needed */
+  background: linear-gradient(to left, red 10%, white 100%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+  display: inline-block; /* Make sure the gradient applies correctly */
+}
+
+.hero-content p {
+  font-size: 28px; /* Adjust size as needed */
+}
+
+.main-heading {
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 60%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 80%;
+}
+
+.profile-img {
+  width: 300px; /* Adjust size as needed */
+  height: 300px; /* Adjust size as needed */
+  border-radius: 50%; /* Makes the image circular */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black; /* Set background color to black */
+  color: white; /* Set text color to white for better visibility */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: yellow;
+  background: linear-gradient(to right, hsl(0, 100%, 50%) 10%, white 100%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+}
+
+.about-section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.about-image {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about-content {
+  flex: 2;
+}
+
+.about-content h2 {
+  font-size: 24px; /* Adjust size as needed */
+  background: linear-gradient(to right, rgb(37, 117, 60) 50%, white 30%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+  display: inline-block; /* Make sure the gradient applies correctly */
+}
+
+.skills-section {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  background: linear-gradient(to right, rgb(57, 111, 45) 20%, white 100%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+  display: inline-block; /* Make sure the gradient applies correctly */
+}
+
+h3 {
+  font-size: 28px;
+  background: linear-gradient(to right, rgb(175, 57, 161) 20%, white 100%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+  display: inline-block; /* Make sure the gradient applies correctly */
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  display: inline-block;
+  width: 120px;
+  font-size: 22px;
+}
+
+.skill-level {
+  display: inline-block;
+  width: 200px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  position: relative;
+}
+
+.skill-level-text {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+.skill-level-bar {
+  height: 20px;
+  background-color: #28f1f8;
+  border-radius: 5px;
+}
+
+.skill-level-percentage {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+.skill-icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 10px;
+  position: absolute;
+  top: 52%;
+  right: 34%;
+}
+
+.achievement {
+  padding: 30px;
+  display: flex;
+  margin-bottom: 10px;
+  background: linear-gradient(to left, rgb(53, 130, 41) 30%, white 100%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+  font-size: 28px;
+}
+
+.button {
+  background-color: #d45aa3c0;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.achievements {
+  text-align: center; /* Align headings to the center */
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center align buttons */
+  gap: 10px; /* Add even spacing between buttons */
+}
+
+.button:hover {
+  background-color: #007bff; /* Maintain original button color */
+  box-shadow: 0 0 20px #d9e004; /* Add glowing effect */
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.button:hover ~ .achievement {
+  background-color: rgb(210, 188, 188); /* Change background color of achievements when button is hovered over */
+}
+
+.contact-container {
+  margin-top: 15%;
+}
+.contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 30px;
+  background: linear-gradient(to left, rgb(192, 255, 3) 50%, white 100%); /* Half red, half white background */
+  -webkit-background-clip: text; /* Clip text to the background gradient */
+  color: transparent; /* Hide text color */
+  display: inline-block; /* Make sure the gradient applies correctly */
+}
+
+ul.contacts {
+  margin-top: 20px;
+}
+
+ul.contacts li {
+  margin-bottom: 10px;
+  color: #007bff;
+}
